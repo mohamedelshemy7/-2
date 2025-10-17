@@ -34,12 +34,17 @@ a {
   margin-left: 15px; /* مسافة بين اللينكات */
 }
  @media (max-width: 600px) {
- header {
-/* يخلي العناصر تحت بعض */ ;column: direction-flex
-/* علشان الهيدر يتمدد حسب المحتوى */ ;auto: height
- font-size: large;
- }
- }
+  header {
+    flex-wrap: nowrap; /* ميخليش حد ينزل تحت */
+    justify-content: space-between;
+  }
+
+  a {
+    font-size: small;
+    margin-left: 5px; /* قلل المسافة بين العناصر */
+  }
+}
+
  
  
 </style>
@@ -57,6 +62,7 @@ a {
 </body>
 
 </html>
+
 
 
 
