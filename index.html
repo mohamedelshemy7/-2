@@ -1,72 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>زاد المؤمن</title>
 
+  <style>
+    body {
+      background-color: #FFE1AF;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+      font-size: xx-large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 20px 0;
+    }
+
+    header {
+      background-color: #B77466;
+      height: 50px;
+      display: flex; /* يخلي العناصر جنب بعض */
+      justify-content: space-between; /* مسافة بينهم */
+      align-items: center; /* يخلي العناصر في النص */
+      padding: 0 20px; /* مسافة من الأطراف */
+      font-size: medium;
+      flex-wrap: wrap; /* يخليهم ينزلوا لو الشاشة صغيرة */
+      box-sizing: border-box;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+      text-align: center;
+      margin-left: 15px; /* مسافة بين اللينكات */
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-wrap: wrap;      /* يخليهم ينزلوا لو الشاشة صغيرة */
+        height: auto;         /* يخلي الهيدر يتمدد حسب الحاجة */
+        justify-content: center; /* يخلي العناصر في النص */
+        gap: 10px;            /* مسافة بسيطة بينهم */
+        padding: 10px;
+      }
+
+      a {
+        font-size: small;     /* يصغّر الخط شوية عشان يدخلوا كلهم */
+        margin-left: 5px;     /* يقلل المسافة بين العناصر */
+      }
+    }
+  </style>
 </head>
-<style>
-  body{
-    background-color: #FFE1AF;
-  }
-  h1{
-    color: black;
-    text-align: center;
-    font-size: xx-large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
-  header {
-  background-color: #B77466;
-  height: 50px;
-  display: flex; /* يخلي العناصر جنب بعض */
-  justify-content: space-between; /* مسافة بينهم */
-  padding: 0 20px; /* مسافة من الأطراف */
-  font-size: medium;
-    flex-wrap: wrap;
-  align-items: center;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  margin-left: 15px; /* مسافة بين اللينكات */
-}
- @media (max-width: 600px) {
-  header {
-    flex-wrap: wrap;      /* يخليهم ينزلوا لو الشاشة صغيرة */
-    height: auto;         /* يخلي الهيدر يتمدد حسب الحاجة */
-    justify-content: center; /* يخلي العناصر في النص */
-    gap: 10px;            /* مسافة بسيطة بينهم */
-  }
-
-  a {
-    font-size: small;
-    margin-left: 5px; /* قلل المسافة بين العناصر */
-  }
-}
-
- 
- 
-</style>
-   </head>
 <body>
-  <h1> زاد المؤمن</h1>
+
+  <h1>زاد المؤمن</h1>
+
   <header>
-  <a href="index1.html">أذكار</a>
-  <a href="index2.html">أحاديث</a>
-  <a href="index3.html">متابعه صلاه</a>
-  <a href="index4.html"> غزوات الرسول</a>
-  <a href="index5.html" >معلومات عن بعض الصحابه</a>
+    <a href="index1.html">أذكار</a>
+    <a href="index2.html">أحاديث</a>
+    <a href="index3.html">متابعة صلاة</a>
+    <a href="index4.html">غزوات الرسول</a>
+    <a href="index5.html">معلومات عن بعض الصحابة</a>
   </header>
 
 </body>
-
 </html>
-
-
-
-
-
-
