@@ -22,7 +22,7 @@
   display: flex; /* يخلي العناصر جنب بعض */
   justify-content: space-between; /* مسافة بينهم */
   padding: 0 20px; /* مسافة من الأطراف */
-  font-size: large;
+  font-size: medium;
     flex-wrap: wrap;
   align-items: center;
 }
@@ -35,8 +35,10 @@ a {
 }
  @media (max-width: 600px) {
   header {
-    flex-wrap: nowrap; /* ميخليش حد ينزل تحت */
-    justify-content: space-between;
+    flex-wrap: wrap;      /* يخليهم ينزلوا لو الشاشة صغيرة */
+    height: auto;         /* يخلي الهيدر يتمدد حسب الحاجة */
+    justify-content: center; /* يخلي العناصر في النص */
+    gap: 10px;            /* مسافة بسيطة بينهم */
   }
 
   a {
@@ -62,6 +64,7 @@ a {
 </body>
 
 </html>
+
 
 
 
